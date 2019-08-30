@@ -51,3 +51,7 @@ demo-angular/node_modules
 !demo-angular/webpack.config.js
 
 *.tgz
+
+## ngc generated metadata
+src/**/*.metadata.json
+src/**/*.ngsummary.json

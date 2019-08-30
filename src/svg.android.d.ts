@@ -1,4 +1,3 @@
-/// <reference path="node_modules/tns-platform-declarations/android.d.ts" />
 import svg = require('./svg');
 import common = require('./svg.common');
 export declare class ImageSourceSVG implements svg.ImageSourceSVG {
