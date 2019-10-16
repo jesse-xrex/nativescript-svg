@@ -2,16 +2,16 @@
  * Allows you to parse SVG files.
  */
 
-import { Property } from 'tns-core-modules/ui/core/dependency-observable';
+import { Property } from 'tns-core-modules/ui/core/properties';
 import { View } from 'tns-core-modules/ui/core/view';
 
 /**
  * Represents a class that provides functionality for loading svg(s).
  */
 export class SVGImage extends View {
-  public static srcProperty: Property;
-  public static imageSourceProperty: Property;
-  public static isLoadingProperty: Property;
+  public static srcProperty: Property<SVGImage, any>;
+  public static imageSourceProperty: Property<SVGImage, ImageSourceSVG>;
+  public static isLoadingProperty: Property<SVGImage, boolean>;
 
   /**
    * Gets or sets the image source of the image.
