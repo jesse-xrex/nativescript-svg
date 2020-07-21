@@ -1,1 +1,1 @@
-pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '3.x'
+pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :commit => '2a4068f0ea546dcd82f7e4dd9aa9026c0a0a2235'
